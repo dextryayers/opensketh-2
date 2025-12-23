@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 $servername = "localhost";
 $username = "db_user";
 $password = "db_pass";
-$dbname   = "haniipps_drawing";
+$dbname   = "db_name";
 
 // Koneksi
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
