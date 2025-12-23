@@ -1,0 +1,13 @@
+{
+  "name": "OpenSketch Whiteboard",
+  "short_name": "OpenSketch",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b63f6",
+  "icons": [
+    { "src": "/icons/penn.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/penn.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/penn.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ]
+}
