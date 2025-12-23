@@ -1,0 +1,13 @@
+{
+	"appId": "art.haniipp.opensketch",
+	"appName": "OpenSketch",
+	"webDir": "out",
+	"server": {
+		"url": "https://art.haniipp.space",
+		"cleartext": false,
+		"androidScheme": "https"
+	},
+	"android": {
+		"allowMixedContent": false
+	}
+}
