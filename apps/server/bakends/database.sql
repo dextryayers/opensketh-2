@@ -1,0 +1,7 @@
+-- Engine & Charset untuk dukungan emoji/UTF-8
+CREATE TABLE IF NOT EXISTS rooms (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  room_id VARCHAR(10) NOT NULL UNIQUE,
+  host_name VARCHAR(100) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
