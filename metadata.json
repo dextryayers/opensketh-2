@@ -1,0 +1,7 @@
+{
+  "name": "Copy of OpenSketch by haniipp.space-2",
+  "description": "Collaborative whiteboard. Draw together in real-time.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
