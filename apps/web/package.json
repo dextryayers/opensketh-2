@@ -1,0 +1,40 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "cross-env BUILD_MODE=static next build",
+    "build:cpanel": "cross-env BUILD_MODE=static next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "clsx": "^2.0.0",
+    "cross-env": "^7.0.3",
+    "fabric": "^6.5.1",
+    "jspdf": "^3.0.4",
+    "lucide-react": "^0.290.0",
+    "next": "^15.5.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "roughjs": "^4.6.0",
+    "socket.io-client": "^4.7.0",
+    "sweetalert2": "^11.12.4",
+    "tailwind-merge": "^2.0.0",
+    "uuid": "^9.0.1",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.0",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
