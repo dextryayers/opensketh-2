@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 
 // Konfigurasi Database (SEBAIKNYA via .env/secret cPanel)
 $servername = "localhost";
-$username = "haniipps_sketch";
+$username = "db_user";
 $password = "@HanifAbdur07";
 $dbname   = "haniipps_drawing";
 
